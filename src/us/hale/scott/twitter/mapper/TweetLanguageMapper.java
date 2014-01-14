@@ -1,4 +1,4 @@
-package net.scotthale.twitter.mapper;
+package us.hale.scott.twitter.mapper;
 
 import java.io.IOException;
 import java.util.StringTokenizer;

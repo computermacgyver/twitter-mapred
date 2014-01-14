@@ -1,6 +1,5 @@
-package net.scotthale.twitter;
+package us.hale.scott.twitter;
 
-import net.scotthale.twitter.mapper.UserDescriptionLanguageMapper;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
@@ -10,6 +9,7 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.KeyValueTextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import us.hale.scott.hadoop.reducer.MapReducer;
+import us.hale.scott.twitter.mapper.UserDescriptionLanguageMapper;
 
 public class UserDescriptionLanguage {
 	public static void main(String[] args) throws Exception {

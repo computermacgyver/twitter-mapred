@@ -1,4 +1,4 @@
-package net.scotthale.twitter;
+package us.hale.scott.twitter;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
